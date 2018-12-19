@@ -1,0 +1,28 @@
+{
+  "name": "mongo_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "body-parser": "*",
+    "cors": "^2.8.4",
+    "express": "*",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2",
+    "joi": "^13.4.0",
+    "jsonwebtoken": "^8.3.0",
+    "mongodb": "^2.2.33",
+    "mongoose": "^5.2.1"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "nodemon": "^1.18.3"
+  }
+}
